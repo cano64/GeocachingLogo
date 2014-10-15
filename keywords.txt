@@ -1,0 +1,7 @@
+GeocachingLogo	KEYWORD1
+
+
+draw  KEYWORD2
+update KEYWORD2
+off KEYWORD2
+
