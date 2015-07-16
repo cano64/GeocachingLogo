@@ -16,8 +16,9 @@ class GeocachingLogo {
   public:
     
     LiquidCrystal *lcd;
-      
-    GeocachingLogo(LiquidCrystal *alcd);
+    uint8_t logotype;
+    
+    GeocachingLogo(LiquidCrystal *alcd, uint8_t ltype = 0);
     void draw(uint8_t x, uint8_t y);
     void prepareFont();
   private:
